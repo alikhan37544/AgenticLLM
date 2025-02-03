@@ -261,7 +261,7 @@ How This Prototype Works
 
     Progress Display:
     A progress bar in the GUI provides a visual cue as evaluations are processed.
-
+n
 Next Steps
 
 You might need to:
