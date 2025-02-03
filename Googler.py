@@ -50,7 +50,7 @@ def research_and_summarize(query):
 
 # Example Usage
 if __name__ == "__main__":
-    query = "who is Ronaldo"
+    query = input("Enter your query: ")
     summary, sources = research_and_summarize(query)
     print("Summary:\n", summary)
     print("\nSources:\n", sources)
