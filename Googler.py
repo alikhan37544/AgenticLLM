@@ -23,8 +23,8 @@ def scrape_content(url):
         return ""
 
 # Step 3: Summarize with Ollama
-def summarize_content(content, model="llama3.2:1b", num_thread=8):
-    llm = Ollama(model=model)
+def summarize_content(content, model="tinyllama" ):
+    llm = Ollama(model=model, num_thread=8)
     prompt = f"Summarize the following content:\n{content}"
     summary = llm(prompt)
     return summary
