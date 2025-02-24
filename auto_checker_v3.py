@@ -111,10 +111,16 @@ def main():
                 "Model_Thoughts": model_thoughts
             })
     
-    # Create a DataFrame and save to CSV with proper quoting (QUOTE_ALL) to handle newlines and commas.
+    # Create a DataFrame from evaluations.
     df = pd.DataFrame(evaluations)
-    df.to_csv("evaluation_results.csv", index=False, quoting=csv.QUOTE_ALL)
-    print("Evaluation complete. Results saved to evaluation_results.csv")
+    
+    # Write the DataFrame as an HTML table. The 'escape=False' allows any HTML (if needed) to be rendered as content.
+    html_content = df.to_html(escape=False, index=False, border=1)
+    
+    with open("evaluation_results.html", "w", encoding="utf-8") as html_file:
+        html_file.write(html_content)
+    
+    print("Evaluation complete. Results saved to evaluation_results.html")
 
 if __name__ == "__main__":
     main()
