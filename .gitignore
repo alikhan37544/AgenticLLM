@@ -1,2 +1,3 @@
 agent_env/ 
 .venv/
+.env
