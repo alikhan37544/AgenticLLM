@@ -1,0 +1,6 @@
+2025-03-11 10:23:58.105 [info] Started local extension host with pid 101268.
+2025-03-11 10:23:58.524 [error] Error scanning extensions at /$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1: Unable to resolve nonexistent file '/$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1'
+2025-03-11 10:23:58.585 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-03-11 10:23:59.377 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-03-11 10:23:59.526 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2025-03-11 10:24:01.157 [info] [perf] Render performance baseline is 25ms
