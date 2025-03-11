@@ -86,7 +86,7 @@ def main():
         return
 
     # Initialize the LangChain Ollama LLM for deepseek‑r1 with 8 threads.
-    llm = Ollama(model="deepseek-r1", base_url="http://127.0.0.1:11434", num_thread=8)
+    llm = Ollama(model="deepseek-r1", base_url="http://127.0.0.1:11434")
     
     for student_file in student_files:
         student_name, _ = os.path.splitext(student_file)

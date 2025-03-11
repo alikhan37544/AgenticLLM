@@ -1,7 +1,0 @@
-2025-03-11 10:24:01.527 [warning] /home/understressengineer/.ssh/config: ENOENT: no such file or directory, open '/home/understressengineer/.ssh/config'
-2025-03-11 10:24:01.527 [info] [Activation] Extension version: 0.106.0
-2025-03-11 10:24:01.527 [info] [TemporaryState] Error in initialization: Unable to delete nonexistent file 'vscode-userdata:/home/understressengineer/programming/AgenticLLM/~/.config/Code-copy/User/globalStorage/github.vscode-pull-request-github/temp'
-2025-03-11 10:24:01.576 [info] [Activation] Looking for git repository
-2025-03-11 10:24:01.576 [info] [Activation] Found 0 repositories during activation
-2025-03-11 10:24:01.576 [info] [Activation] Git repository found, initializing review manager and pr tree view.
-2025-03-11 10:24:01.577 [info] [GitAPI] Registering git provider
